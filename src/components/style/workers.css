@@ -1,0 +1,40 @@
+.specText {
+  text-align: left;
+  font-size: 32px;
+  font-weight: bold;
+  color: #152d41;
+}
+.spec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 70px 0px;
+  width: 80vw;
+}
+.spec:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: end;
+}
+.nameSpec {
+  font-size: 18px;
+}
+.circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background-position: center;
+  background-size: cover;
+}
+
+.jack {
+  background-image: url(./assets/jack.jpg);
+}
+.bob {
+  background-image: url(./assets/bob.jpg);
+}
