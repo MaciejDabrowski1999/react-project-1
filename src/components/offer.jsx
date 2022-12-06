@@ -5,7 +5,7 @@ import Box from "./Box";
 
 
 const Offer = () =>{
-    const [boxes, setBoxes] = useState([
+    const [boxes] = useState([
         {id:1, name:'Usługa 1', isNew:'(Nowość!)'},
         {id:2, name:'Usługa 2', isNew:'(Nowość!)'},
         {id:3, name:'Usługa 3', isNew:'(Nowość!)'},
