@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  background-color: #4e4e4e;
+  width: 100vw;
+  height: 50px;
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  padding: 0 20px 0 20px;
+  font-size: 32px;
+}

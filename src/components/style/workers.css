@@ -10,7 +10,6 @@
   align-items: center;
   color: black;
   margin: 70px 0px;
-  width: 80vw;
 }
 .spec:nth-of-type(even) {
   flex-direction: row-reverse;

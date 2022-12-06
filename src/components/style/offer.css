@@ -1,0 +1,52 @@
+.downColor {
+  background-color: #405d78;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  margin: 3%;
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+  box-shadow: 5px 5px 10px 0px black;
+}
+.box:hover {
+  transform: scale(1.05);
+}
+.offer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.offerText {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+}
+.smCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -30%;
+  left: -50%;
+  margin-right: -22px;
+  width: 50px;
+  height: 50px;
+  height: auto;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background-color: red;
+  transition: all 0.5s;
+}
+.smBox {
+  display: flex;
+  margin-top: -50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
